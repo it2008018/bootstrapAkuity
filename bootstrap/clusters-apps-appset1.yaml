@@ -16,7 +16,7 @@ spec:
           values: ['true']
   template:
     metadata:
-      name: 'apps-{{name}}'
+      name: 'apps-{{name}}-1'
     spec:
       project: default
       source:
