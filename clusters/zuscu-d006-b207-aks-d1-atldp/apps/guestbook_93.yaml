@@ -1,11 +1,11 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: guestbook_93
+  name: guestbook93
 spec:
   destination:
     name: zuscu-d006-b207-aks-d1-atldp
-    namespace: guestbook_93
+    namespace: guestbook93
   source:
     path: guestbook
     repoURL: https://github.com/argoproj/argocd-example-apps/
