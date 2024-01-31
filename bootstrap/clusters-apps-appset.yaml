@@ -22,7 +22,7 @@ spec:
       source:
         repoURL: https://github.com/it2008018/bootstrapAkuity
         targetRevision: HEAD
-        path: 'clusters/{{name}}/apps'
+        path: 'clusters2/{{name}}/apps'
         directory:
           recurse: true
       destination:
