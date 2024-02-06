@@ -9,7 +9,6 @@ spec:
   project: default
   source:
     path: bootstrap/
-    repoURL: https://github.com/it2008018/bootstrapAkuity  # Primary repository
     directory:
       recurse: true
   sourceRepos:
