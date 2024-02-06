@@ -9,8 +9,11 @@ spec:
   project: default
   source:
     path: bootstrap/
-    repoURL: https://github.com/it2008018/bootstrapAkuity
+    repoURL: https://github.com/it2008018/bootstrapAkuity  # Primary repository
     directory:
       recurse: true
+  sourceRepos:
+    - https://github.com/it2008018/bootstrapAkuity  # Primary repository
+    - https://github.com/it2008018/appsetAkuitypoc  # Additional repository
   syncPolicy:
     automated: {}
